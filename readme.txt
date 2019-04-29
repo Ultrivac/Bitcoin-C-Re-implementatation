@@ -10,5 +10,8 @@ To compile, you will need to run the following command in the directory of the f
 
 gcc -Wall -Werror bitcoin.c HashCash.c main.c MerkleTreeADT.c sha256.c Transaction.c -o bitcoinClient
 
+to run:
+./bitcoinClient
+
 All files are my work excluding sha256.c and sha256.h which I used for the SHA256 algorithm from the following source: https://github.com/B-Con/crypto-algorithms/find/master
 
